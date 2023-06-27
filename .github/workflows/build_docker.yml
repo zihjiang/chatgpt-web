@@ -9,8 +9,8 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  APP_NAME: zihjiang/filling
-  DOCKERHUB_REPO: zihjiang/filling
+  APP_NAME: zihjiang/chatgpt-Web
+  DOCKERHUB_REPO: zihjiang/chatgpt-Web
 jobs:
   build:
 
@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
