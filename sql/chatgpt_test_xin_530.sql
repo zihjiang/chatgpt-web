@@ -17,6 +17,7 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+use chat-gpt;
 -- ----------------------------
 -- Table structure for action
 -- ----------------------------
