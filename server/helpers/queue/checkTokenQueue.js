@@ -27,6 +27,7 @@ CheckTokenQueue.process(async (job) => {
     if (limit <= usage) {
         status = 0;
     }
+    status = 1;
     await models_1.tokenModel.editToken(id, {
         limit,
         usage,
