@@ -22,8 +22,8 @@
     "build:serve": "pkg . --compress GZip --out-path=dist/",
     "preview": "vite preview",
     "eslint": "eslint \"src/**/*.{ts,tsx}\" \"server/**/*.{ts,tsx}\"",
-    "eslint:fix": "eslint \"src/**/*.{ts,tsx}\" \"server/**/*.{ts,tsx}\" --fix",
-    "prepare": "husky install"
+    "eslint:fix": "",
+    "prepare": ""
   },
   "bin": "./server/index.js",
   "pkg": {

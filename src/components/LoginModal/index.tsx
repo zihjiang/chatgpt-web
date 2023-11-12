@@ -79,7 +79,7 @@ export function LoginCard(props: {
       <ProFormText
         fieldProps={{
           size: 'large',
-          placeholder="请输入邮箱", 
+          placeholder: "请输入邮箱", 
           prefix: <RobotOutlined />
         }}
         name="account"
